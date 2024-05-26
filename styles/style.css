@@ -1,0 +1,788 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap');
+
+/******************* COMMUN CSS ************************/
+
+/******************* Other ************************/
+body {
+    margin-top: 20px;
+}
+
+.container {
+    width: 80%;
+    margin-left: 10%;
+}
+
+.blue {
+    background-color: #F0F5FF;
+}
+
+.pink {
+    background-color: #FEEDFA;
+}
+
+.spacing {
+    margin-top: 100px;
+}
+
+.displayColumn {
+    display: flex;
+    flex-direction: column;
+}
+
+/******************* Packs ************************/
+#packs {
+    background-color: #061C3D;
+    padding: 50px 0;
+}
+
+.packsContainer {
+    display: flex;
+    gap: 5%;
+}
+
+.packImg {
+    width: 40%;
+}
+
+.packImg img {
+    width: 100%;
+}
+
+.packContent {
+    width: 55%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 40px;
+}
+
+.packDescription h2 {
+    font-size: 56px;
+    font-family: Lexend;
+    font-weight: 600;
+    color: #FFFFFF;
+    line-height: 60px;
+}
+
+.packDescription p {
+    font-size: 18px;
+    font-family: Lexend;
+    font-weight: 300;
+    color: #FFFFFF;
+    line-height: 26px;
+}
+
+.packButton button {
+    border-radius: 7px;
+    padding: 0px 32px;
+    gap: 12px;
+    background-color: #0B63E5;
+    border: none;
+    font-size: 17px;
+    font-family: Lexend;
+    font-weight: 500;
+    color: #FFFFFF;
+    line-height: 56px;
+}
+
+/******************* Footer ************************/
+footer {
+    background-color: #F5F6F7;
+    padding-top: 50px;
+}
+
+.footerContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+}
+
+.footerContents {
+    display: flex;
+    gap: 24px;
+}
+
+.content {
+    width: 30%;
+}
+
+.content p {
+    font-size: 16px;
+    font-family: Lexend;
+    font-weight: 300;
+    color: #6A778B;
+    line-height: 24px;
+}
+
+.content img {
+    border-radius: 12px;
+    gap: 10px;
+}
+
+.content2 {
+    width: 50%;
+    display: grid;
+    grid-template-columns: repeat(3, 30%);
+    gap: 5%;
+}
+
+.quickLinks {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.quickLinks div {
+    display: flex;
+    flex-direction: column;
+}
+
+.quickLinks div p {
+    font-size: 16px;
+    font-family: Lexend;
+    font-weight: 400;
+    color: #061C3D;
+    line-height: 16px;
+    letter-spacing: 0.01em;
+}
+
+.quickLinks div a {
+    text-decoration: none;
+    font-size: 16px;
+    font-family: Lexend;
+    font-weight: 400;
+    color: #838E9E;
+    line-height: 24px;
+    padding-top: 6px;
+}
+
+.service {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.service div {
+    display: flex;
+    flex-direction: column;
+}
+
+.service div p {
+    font-size: 16px;
+    font-family: Lexend;
+    font-weight: 400;
+    color: #061C3D;
+    line-height: 16px;
+    letter-spacing: 0.01em;
+}
+
+.service div a {
+    text-decoration: none;
+    font-size: 16px;
+    font-family: Lexend;
+    font-weight: 400;
+    color: #838E9E;
+    line-height: 24px;
+    padding-top: 6px;
+}
+
+.links {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.copyrightContainer {
+    border-top: 1px solid #E6E8EC;
+}
+
+.copyrightContainer p {
+    font-size: 16px;
+    font-family: Lexend;
+    font-weight: 300;
+    color: #061C3D;
+    line-height: 24px;
+    text-align: center;
+}
+
+/******************* ACCUEIL ************************/
+
+/******************* Header ************************/
+/******************* Navbar ************************/
+.navbar {
+    display: flex;
+}
+
+.logoContainer {
+    width: 15%;
+    margin-right: 2%;
+}
+
+.logoContainer img {
+    width: 100%;
+}
+
+.menuContainer {
+    width: 30%;
+    margin-right: 28%;
+}
+
+.menu{
+    display: flex;
+    list-style: none;
+    gap: 5%;
+    border-left: 1px solid black;
+}
+
+.items a{
+    text-decoration: none;
+    font-size: 14px;
+    font-family: Lexend;
+    color: #838E9E;
+}
+
+.buttonContainer {
+    width: 25%;
+    display: flex;
+    gap: 5%;
+    justify-content: right;
+}
+
+.buttonContainer button {
+    border-radius: 5px;
+    padding: 0px 20px;
+    border: none;
+}
+
+.deconnexion {
+    background: #F0F5FF;
+    color: #0B63E5;
+}
+
+.connexion {
+    background: #0B63E5;
+    color: white;
+}
+/******************* Banner ************************/
+.banner {
+    display: flex;
+    gap: 5%;
+    margin-top: 100px;
+}
+
+.informations {
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.infoHeader p {
+    font-family: Lexend;
+    font-size: 45px;
+    font-weight: 600;
+    line-height: 80px;
+    letter-spacing: -0.018em;
+    text-align: left;
+    color: #061C3D;
+    margin: 0;
+}
+
+.infoText p {
+    font-family: Lexend;
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 28px;
+    text-align: left;
+    color: #061C3D;
+}
+
+.infoDescriptions {
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+}
+
+.infoDescriptions p {
+    font-family: Lexend;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #0F9918;
+    /* margin: 0; */
+}
+
+.photoContainer {
+    width: 50%;
+    display: flex;
+    justify-content: right;
+}
+
+/******************* Features ************************/
+.featuresContainer  {
+    display: flex;
+    flex-direction: column;
+    gap: 72px;
+    margin-top: 75px;
+}
+
+.featuresHeading {
+    display: flex;
+    gap: 5%;
+}
+
+.headingImg {
+    width: 20%;
+}
+.headingTitle {
+    width: 40%;
+}
+
+.headingTitle p {
+    font-family: Lexend;
+    font-size: 56px;
+    font-weight: 600;
+    line-height: 60px;
+    letter-spacing: -0.015em;
+    text-align: left;
+    color: #061C3D;
+}
+
+.headingDescription {
+    display: flex;
+    padding-top: 65px;
+    width: 30%;
+}
+
+.headingDescription p {
+    font-family: Lexend;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 28px;
+    text-align: left;
+    color: #061C3D;
+}
+
+.featuresRow {
+    display: grid;
+    grid-template-columns: repeat(3, 32%);
+    gap: 30px;
+}
+
+.row {
+    padding: 32px;
+    border-radius: 16px;
+    gap: 24px;
+}
+
+.row1 {
+    background-color: #F0F5FF;
+}
+
+.row2 {
+    background-color: #FEEDFA;
+}
+
+.row3 {
+    background-color: #F5F6F7;
+}
+
+.rowDescription {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.rowTitle {
+    font-family: Lexend;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 32px;
+    text-align: left;
+    color: #061C3D;
+}
+
+.rowText {
+    font-family: Lexend;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 24px;
+    text-align: left;
+    color: #42526B;
+}
+
+.rowButton  button{
+    border: none;
+    border-radius: 5px;
+    background-color: #FFFFFF;
+    padding: 0px 32px;
+    gap: 12px;
+    font-family: Lexend;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 56px;
+    text-align: left;
+}
+
+.button1 {
+    color: #0B63E5;
+}
+
+.button2 {
+    color: #7534FF;
+}
+
+.button3 {
+    color: #061C3D;
+}
+
+/******************* Testimonial ************************/
+#testimonial {
+    background-color: #F5F6F7;
+    padding: 50px 0;
+    margin-top: 100px;
+}
+
+.testimonialContainer {
+    display: flex;
+    gap: 5%;
+}
+
+.testimonialContents {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 40px;
+    width: 50%;
+}
+
+.testimonialContents h2 {
+    font-size: 56px;
+    font-family: Lexend;
+    font-weight: 600;
+    color: #061C3D;
+    line-height: 60px;
+    margin: 0;
+}
+
+.testimonialContents p {
+    font-size: 24px;
+    font-family: Lexend;
+    font-weight: 300;
+    color: #061C3D;
+    line-height: 32px;
+    padding-left: 24px;
+    border-left: 1px solid #061C3D;
+    margin: 0;
+}
+
+.testimonialImg {
+    width: 35%;
+    display: flex;
+    justify-content: center;
+}
+
+.testimonialImg img {
+    width: 100%;
+}
+
+/******************* Team Member ************************/
+#teamMember {
+    margin-top: 100px;
+}
+
+.teamContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 72px;
+}
+
+.teamHeading {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    text-align: center;
+}
+
+.teamHeading h2 {
+    font-size: 56px;
+    font-family: Lexend;
+    font-weight: 600;
+    color: #061C3D;
+    line-height: 60px;
+    margin: 0;
+}
+
+.teamHeading p {
+    font-size: 18px;
+    font-family: Lexend;
+    font-weight: 300;
+    color: #061C3D;
+    line-height: 26px;
+    margin: 0;
+}
+
+.teamRow {
+    display: grid;
+    grid-template-columns: repeat(4, 23.5%);
+    gap: 2%;
+}
+
+.memberImg img {
+    width: 100%;
+}
+
+.cardInfo h3 {
+    font-size: 20px;
+    font-family: Lexend;
+    font-weight: 500;
+    color: #061C3D;
+    line-height: 28px;
+}
+
+.cardInfo p {
+    font-size: 16px;
+    font-family: Lexend;
+    font-weight: 300;
+    color: #6A778B;
+    line-height: 24px;
+}
+
+/******************* Companies Logo ************************/
+#companies {
+    margin-top: 50px;
+}
+.companiesContainer {
+    display: flex;
+    gap: 20%;
+}
+
+.companyText p {
+    font-size: 24px;
+    font-family: Lexend;
+    font-weight: 300;
+    color: #061C3D;
+    line-height: 32px;
+}
+
+.companyText span {
+    font-size: 24px;
+    font-family: Lexend;
+    font-weight: 300;
+    color: #0B63E5;
+    line-height: 32px;
+}
+
+.companyText {
+    width: 30%;
+}
+
+.companiesLogo {
+    width: 50%;
+    display: grid;
+    grid-template-columns: repeat(4, 25%);
+}
+
+/******************* SERVICES ************************/
+
+/******************* Banner ************************/
+.serviceBanner {
+    display: flex;
+    align-items: center;
+    gap: 5%;
+    margin-top: 100px;
+}
+
+/******************* Services ************************/
+#service {
+    padding: 50px 0;
+}
+
+.serviceContainer {
+    display: flex;
+    gap: 5%;
+}
+
+.serviceContents {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 40px;
+    width: 50%;
+}
+
+.serviceContents h2 {
+    font-size: 56px;
+    font-family: Lexend;
+    font-weight: 600;
+    color: #061C3D;
+    line-height: 60px;
+    margin: 0;
+}
+
+.serviceContents p {
+    font-size: 24px;
+    font-family: Lexend;
+    font-weight: 300;
+    color: #061C3D;
+    line-height: 32px;
+    padding-left: 24px;
+    border-left: 1px solid #061C3D;
+    margin: 0;
+}
+
+.serviceImg {
+    width: 35%;
+    display: flex;
+    justify-content: center;
+}
+
+.serviceImg img {
+    width: 100%;
+}
+
+/******************* CONTACT ************************/
+
+/******************* Banner ************************/
+.contactBanner {
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    gap: 5%;
+    margin-top: 100px;
+}
+
+.contactImg {
+    width: 40%;
+}
+
+.contactImg img {
+    width: 100%;
+}
+
+.contactInfo {
+    width: 55%;
+    gap: 5%;
+}
+
+.infoText {
+    gap: 15px;
+}
+
+.infoText h3 {
+    font-family: Lexend;
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 46.88px;
+    text-align: left;
+    margin: 0;
+    color: #061C3D;
+}
+
+.infoText p {
+    width: 85%;
+    font-family: Lexend;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 29.77px;
+    text-align: left;
+    margin: 0;
+}
+
+.infoPoint {
+    width: 40%;
+    gap: 17px;
+}
+
+.point {
+    display: flex;
+    border: 1px solid #EEEEEE;
+    border-radius: 16px;
+    padding: 2%;
+    gap: 16px;
+}
+
+.text {
+    justify-content: center;
+}
+
+.text h4 {
+    font-family: Roboto;
+    font-size: 25px;
+    font-weight: 800;
+    line-height: 29.3px;
+    text-align: left;
+    margin: 0;
+}
+
+.text p {
+    font-family: Open Sans;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 29.77px;
+    text-align: left;
+    margin: 0;
+}
+
+.infoFollow {
+    width: 45%;
+    display: grid;
+    grid-template-columns: repeat(3, 20%);
+}
+
+/******************* Email ************************/
+#email {
+    margin: 150px 0 100px 0;
+}
+
+.emailContainer {
+    gap: 50px;
+}
+
+.emailForm {
+    gap: 50px;
+}
+
+.form1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 50px;
+}
+
+.form1 div, .form2 div {
+    display: flex;
+    flex-direction: column;
+}
+
+input, textarea {
+    padding: 15px;
+    border: 1px solid #7EB693;
+    border-radius: 5px;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+textarea {
+    resize: vertical;
+    height: 150px;
+}
+
+.emailButton {
+    display: flex;
+}
+
+.emailButton button {
+    padding: 15px 30px;
+    background-color: #274C5B;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+label {
+    margin-bottom: 5px;
+    font-weight: 300;
+    font-family: Lexend;
+    color: #274C5B;
+}
